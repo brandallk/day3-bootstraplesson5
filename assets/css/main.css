@@ -161,3 +161,15 @@ footer {
     background-color: rgb(27, 27, 27);
     color: rgb(216, 216, 216);
 }
+
+.contact,
+.address {
+    font-size: 0.75rem;
+}
+
+@media (min-width: 992px) {
+    .contact,
+.address {
+    font-size: 1rem;
+}
+}
